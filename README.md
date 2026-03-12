@@ -92,21 +92,4 @@ expense-tracker/
 └── expenses.db    # SQLite database (auto-created on first run)
 ```
 
----
 
-## Interview Q&A — Know These!
-
-**Q: What is FastAPI?**
-A: A modern Python web framework for building APIs. It's fast, automatically generates interactive docs at /docs, and uses Python type hints for validation.
-
-**Q: What is an ORM?**
-A: Object Relational Mapper — SQLAlchemy lets us interact with the database using Python classes instead of writing raw SQL queries.
-
-**Q: What is Pydantic used for?**
-A: Data validation. It automatically checks that incoming request data has the right types and values, and raises clear errors if not.
-
-**Q: What's the difference between POST and PATCH?**
-A: POST creates a new resource. PATCH partially updates an existing one — you only send the fields you want to change.
-
-**Q: Why SQLite and not MySQL?**
-A: SQLite is file-based and requires no server setup — ideal for development and small projects. The same SQLAlchemy code works with MySQL or PostgreSQL in production by just changing the connection string.
