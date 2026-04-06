@@ -1,4 +1,4 @@
-# 💸 Expense Tracker API
+# Expense Tracker API
 
 A RESTful backend API built with **FastAPI** and **SQLite**, designed to track personal expenses with category filtering and spending analytics.
 
